@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  box-sizing: border-box;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.container-fluid {
+  min-height: 100vh;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.d-flex {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+}
+
+.row {
+  height: 100%;
+}
+.nav {
+  margin: 2%;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-links {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  margin-left: 1rem;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.caveat {
+  font-family: "Caveat", cursive;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.brush {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.courgette {
+  font-family: "Courgette", cursive;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.covered {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.galada {
+  font-family: "Galada", cursive;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.landing {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 50px;
+  padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
+.landing > .row {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
 }
