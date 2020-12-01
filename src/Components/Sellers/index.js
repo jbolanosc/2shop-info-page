@@ -3,7 +3,7 @@ import React from "react";
 export default function index() {
   return (
     <div className="container-fluid d-flex flex-column align-items-center justify-content-center">
-      <h1 className="covered mb-2">Beneficios para vendedores</h1>
+      <h1 className="covered mb-2 text-centered">Beneficios para vendedores</h1>
       <div className="row">
         <div className="col-md-6">
           <div className="card mb-3" style={{ width: "18rem" }}>
@@ -92,8 +92,8 @@ export default function index() {
                 Aceptamos todo tipo de tienda o producto
               </h5>
               <p className="card-text">
-                Ayudamos a cualqueir emprendedor o negocio que desee vender su
-                producto
+                Ayudamos a cualquier emprendedor o negocio que desee vender su
+                producto.
               </p>
             </div>
           </div>

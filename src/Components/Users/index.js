@@ -3,13 +3,10 @@ import React from "react";
 export default function index() {
   return (
     <div className="container-fluid d-flex flex-column align-items-center justify-content-center">
-      <h1 className="covered mb-2">Beneficios para usuarios</h1>
+      <h1 className="covered mb-2 text-centered">Beneficios para usuarios</h1>
       <div className="row">
         <div className="col-md-6">
-          <div
-            className="card bg-primary text-light mb-3"
-            style={{ width: "18rem" }}
-          >
+          <div className="card bg-primary text-light mb-3">
             <div className="card-body">
               <h5 className="card-title">
                 Encontras especificamente lo que buscas
@@ -49,10 +46,7 @@ export default function index() {
           </div>
         </div>
         <div className="col-md-6">
-          <div
-            className="card bg-primary text-light mb-3"
-            style={{ width: "18rem" }}
-          >
+          <div className="card bg-primary text-light mb-3">
             <div className="card-body">
               <h5 className="card-title">Compras programables o recurrentes</h5>
               <p className="card-text">
@@ -61,10 +55,7 @@ export default function index() {
               </p>
             </div>
           </div>
-          <div
-            className="card bg-primary text-light  mb-3"
-            style={{ width: "18rem" }}
-          >
+          <div className="card bg-primary text-light  mb-3">
             <div className="card-body">
               <h5 className="card-title">Compras local o internacionalmente</h5>
               <p className="card-text">
@@ -74,10 +65,7 @@ export default function index() {
               </p>
             </div>
           </div>
-          <div
-            className="card bg-primary text-light  mb-3"
-            style={{ width: "18rem" }}
-          >
+          <div className="card bg-primary text-light  mb-3">
             <div className="card-body">
               <h5 className="card-title">Encontras las mejores ofertas</h5>
               <p className="card-text">
@@ -88,16 +76,13 @@ export default function index() {
             </div>
           </div>
 
-          <div
-            className="card bg-primary text-light  mb-3"
-            style={{ width: "18rem" }}
-          >
+          <div className="card bg-primary text-light  mb-3">
             <div className="card-body">
               <h5 className="card-title">Suministros</h5>
               <p className="card-text">
-                Podes encontrar todos los suministros necesarios para la
+                Podés encontrar todos los suministros necesarios para la
                 operación de tu empresa, te los llevamos hasta la puerta de tu
-                casa
+                casa.
               </p>
             </div>
           </div>
