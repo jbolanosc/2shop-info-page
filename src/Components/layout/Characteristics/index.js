@@ -20,8 +20,8 @@ export default function index() {
               <div className="d-flex flex-column">
                 <h3 className="font-weight-bold">Compra donde sea</h3>
                 <p>
-                  Podes apoyar comprando a tiendas locales cerca de ti, o buscar
-                  productos internacionales
+                  Podés apoyar comprando a tiendas locales cerca de ti, o buscar
+                  productos internacionales.
                 </p>
               </div>
             </div>
@@ -41,7 +41,7 @@ export default function index() {
                 <h3 className="font-weight-bold">Todo en un mismo lugar</h3>
                 <p>
                   No tendrás que visitar diferentes lugares para encontrar lo
-                  que buscas, acá encontrás lo que necesitas facilmente.
+                  que buscas, acá encontrás lo que necesitas fácilmente.
                 </p>
               </div>
             </div>
@@ -60,8 +60,8 @@ export default function index() {
               <div className="d-flex flex-column">
                 <h3 className="font-weight-bold">Ahorro de tiempo</h3>
                 <p>
-                  Aqui encontras todo en único lugar, no tenes que hacer largos
-                  viajes para encontar lo que buscas
+                  Aquí encontras todo en único lugar, no tenés que hacer largos
+                  viajes para encontrar lo que buscas.
                 </p>
               </div>
             </div>
